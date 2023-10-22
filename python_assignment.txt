@@ -1,0 +1,9 @@
+repo https://github.com/Suraj-3029/vired_assignment
+branch python_assignment
+
+add env.ini 
+with values as 
+[Database]
+password = <password>
+user = <user>
+host = <host>
