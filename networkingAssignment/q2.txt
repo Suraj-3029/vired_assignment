@@ -1,0 +1,32 @@
+output 
+ python subdomain.py 
+Status of subdomains:
+------------------------------------------
+Subdomain                      Status
+https://google.com             Up
+https://facebook.com           Up
+https://vlearnv.herovired.com/ Up
+https://google.com             Up
+https://facebook.com           Up
+https://vlearnv.herovired.com/ Up
+https://google.com             Up
+https://facebook.com           Up
+https://vlearnv.herovired.com/ Up
+https://google.com             Up        
+https://facebook.com           Up        
+https://vlearnv.herovired.com/ Up        
+https://google.com             Up        
+https://facebook.com           Up        
+https://vlearnv.herovired.com/ Up        
+https://google.com             Up        
+https://facebook.com           Up        
+https://vlearnv.herovired.com/ Up        
+https://google.com             Up        
+https://facebook.com           Up        
+https://vlearnv.herovired.com/ Up        
+https://google.com             Up        
+https://facebook.com           Up        
+https://vlearnv.herovired.com/ Up        
+https://google.com             Up        
+https://facebook.com           Up        
+https://vlearnv.herovired.com/ Up

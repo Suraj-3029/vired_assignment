@@ -1,0 +1,23 @@
+> sudo apt update
+> sudo apt install apache2
+> sudo systemctl status apache2
+> sudo nano /etc/apache2/sites-available/awesomeweb.conf\
+add this
+<VirtualHost *:80>
+ ServerName awesomeweb
+ DocumentRoot /var/www/awesomeweb
+ ErrorLog ${APACHE_LOG_DIR}/error.log
+ CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+> sudo a2ensite awesomeweb.conf
+> sudo nano /etc/hosts
+add this
+127.0.0.1 awesomeweb
+> sudo mkdir /var/www/awesomeweb
+> nano  /var/www/awesomeweb/index.html
+add a sample html
+welcome to awesomeweb of suraj
+> sudo service apache2 restart
+
+open  http://awesomeweb
